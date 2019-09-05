@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="Content\Contact.css" />
     <Content Include="Content\index.css" />
+    <Content Include="Content\Login.css" />
     <Content Include="Index.html" />
     <Content Include="Contact.html" />
     <Content Include="Login.html" />
