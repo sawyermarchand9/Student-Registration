@@ -47,8 +47,20 @@ li {
     width:30%;
 }
 
-#create_account_link,  #forgot_password_link a {
+#forgot_password_link a {
     text-decoration: none;
     color: white;
+    
 }
-   
+
+#forgot_password_link {
+    margin-top:20px
+}
+
+form {
+    margin-top: 100px;
+}
+
+input {
+    text-align: center;
+}
