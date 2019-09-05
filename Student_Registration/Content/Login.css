@@ -36,3 +36,19 @@ li {
         li a:hover {
             background-color: #111;
         }
+
+.login {
+    text-align:center;
+    margin-top:100px
+}
+
+#UserName , #Password {
+    margin-bottom:15px;
+    width:30%;
+}
+
+#create_account_link,  #forgot_password_link a {
+    text-decoration: none;
+    color: white;
+}
+   
