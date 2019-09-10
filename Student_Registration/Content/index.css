@@ -5,12 +5,13 @@
 }
 
 .welcome {
-    width: 90%;
+    width: 73.9%;
     height: 400px;
-    background-color: #c9453c;
+    background-color: #372d2d;
     margin: auto;
     border: 3px solid black;
     padding: 10px;
+    color:white;
 }
 
 ul {
@@ -36,3 +37,19 @@ li {
         li a:hover {
             background-color: #111;
         }
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height:600px;
+    width:75%;
+}
+
+.welcome_message_body {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+    width: 75%;
+}
