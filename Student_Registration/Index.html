@@ -1,32 +1,48 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="Content/index.css"/>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="Content/index.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
 </head>
 
 <body>
     <div class="content">
         <!-- Menu Bar -->
-        <ul>
-            <li><a class="active" href="Index.html">Merganser University</a></li>
-            <li><a href="Index.html">Home</a></li>
-            <li><a href="Contact.html">Contact</a></li>
-            <li><a href="Login.html">Login</a></li>
-        </ul>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="Index.html">Merganser University</a>
+                </li>
+                <li class="nav-item" >
+                    <a class="nav-link" href="Index.html">Home</a>
+                </li>
+                <li class="nav-item" >
+                    <a class="nav-link" href="Contact.html">Contact</a>
+                </li>
+                <li class="nav-item" >
+                    <a class="nav-link " href="Login.html">Login</a>
+                </li>
+            </ul>
+        </nav>
+        <img src="Content/Images/index_image_three.jpg" id="welcome-background"/>
 
-        <br />
-        <!-- use background image -->
-        <img src="Images/index_image_three.jpg" />
-        <br />
-        <div class="welcome">
-            <h1 style="text-align:center;">Welcome to Merganser University</h1>
-            <p class="welcome_message_body">
-            Here at Merganser University we offer a great deal of online courses such as computer security, web-development, programming, 
-            and much more. There is constant online expert support available to students.
-            Merganser University is 100% free because we believe that knowledge should be available to everyone, it is not a privilege. 
-            </p>
+        <div class="col-sm-9" id="welcome-message">
+            <h1>Welcome to Merganser University</h1>
+            <br>
+            <p>Your Path to Becoming a Computer-Scientist Begins Here</p>
+            <br />
+            <button id="exp-button">Explore</button>
         </div>
+        <!-- use background image -->
 
     </div>
+    
 </body>
 </html>

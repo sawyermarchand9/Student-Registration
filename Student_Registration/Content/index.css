@@ -1,55 +1,37 @@
-﻿.content {
+﻿
+#exp-button {
+    height: 55px;
+    width: 15%;
+    color: white;
+    border: none;
+    text-decoration: none;
+    border-radius: 12px;
+    background-color:#5a71cc
+}
+
+
+#welcome-background {
+    height: 900px;
     width: 100%;
-    background-color: aliceblue;
-    height: 950px
 }
 
-.welcome {
-    width: 73.9%;
-    height: 400px;
-    background-color: #372d2d;
-    margin: auto;
-    border: 3px solid black;
-    padding: 10px;
-    color:white;
+#welcome-message {
+    width: 50%;
+    height: 500px;
+    position: absolute;
+    top: 200px;
+    left: 25%;
+    text-align: center;
+    color: white;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #372d2d;
-}
-
-li {
-    float: left;
-}
-
-    li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
+    #welcome-message h1 {
+        font-size: 60px;
+        
+    }
+    #welcome-message p {
+        font-size: 25px;
     }
 
-        li a:hover {
-            background-color: #111;
-        }
 
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height:600px;
-    width:75%;
-}
 
-.welcome_message_body {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 600px;
-    width: 75%;
-}
