@@ -68,10 +68,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\About_Style.css" />
+    <Content Include="Content\Images\file.png" />
+    <Content Include="Content\Images\face.png" />
+    <Content Include="Content\Images\comment.png" />
     <Content Include="Content\index.css" />
     <Content Include="Content\Login.css" />
     <Content Include="Content\Images\index_image_two.jpg" />
     <Content Include="Content\Images\index_image_three.jpg" />
+    <Content Include="Content\Menu-bar.css" />
     <Content Include="Index.html" />
     <Content Include="About.html" />
     <Content Include="Login.html" />
