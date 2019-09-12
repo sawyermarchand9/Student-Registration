@@ -1,0 +1,39 @@
+﻿#about-background {
+    height:900px;
+    width:100%;
+    position:fixed;
+}
+
+.about-message {
+    position:absolute;
+    left:12%;
+    top:15%;
+    height:600px;
+    background-color:rgba(41, 46, 51, 0.9);
+    color:white;
+}
+
+.about-header h1 {
+    margin-top:50px;
+    font-size: 48px;
+}
+
+.about-message-content {
+    position:relative;
+    left:9%;
+    font-size:18px;
+}
+
+.service-container {
+    margin-top:15px;
+    text-align:center;
+}
+
+.circle {
+    position:relative;
+    left:36.8%;
+    height:100px;
+    width:100px;
+    background-color:white;
+    border-radius:100%;
+}
