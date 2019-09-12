@@ -71,6 +71,9 @@
     <Content Include="Content\Images\file.png" />
     <Content Include="Content\Images\face.png" />
     <Content Include="Content\Images\comment.png" />
+    <Content Include="Content\Images\evaluated_projects.jpg" />
+    <Content Include="Content\Images\studying.jpg" />
+    <Content Include="Content\Images\online_assistance.jpg" />
     <Content Include="Content\index.css" />
     <Content Include="Content\Login.css" />
     <Content Include="Content\Images\index_image_two.jpg" />
