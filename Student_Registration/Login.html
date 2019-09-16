@@ -1,37 +1,53 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
+    
     <meta charset="utf-8" />
     <title></title>
-    <link rel="stylesheet" href="Content/Login.css"/>
+    <!-- Style -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link href="Content/Login_Style.css" rel="stylesheet" />
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
 </head>
 <body>
-    <div class="content">
-        <!-- Menu Bar -->
-        <ul>
-            <li><a class="active" href="Index.html">Merganser University</a></li>
-            <li><a href="Index.html">Home</a></li>
-            <li><a href="Contact.html">Contact</a></li>
-            <li><a href="Login.html">Login</a></li>
+    <!-- Menu bar -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark menu-bar">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="Index.html">Merganser University</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="About.html">About</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link " href="Login.html">Login</a>
+            </li>
         </ul>
+    </nav>
+    
+    <div class="container">
 
-        <br />
-
-        <div class="login">
-            <form id="fogin_form">
-                <h2>Login</h2>
-                <input id="UserName" type="text" />
+        <div class="col-sm-12 login-bar">
+            <br />
+            <h2 id="login-title">Merganser University</h2>
+            <p>Login or register for an account</p>
+            <form id="login-form">
+                <input type="text" id="login" name="login" placeholder="login">
                 <br />
-                <input id="Password" type="password" />
+                <input type="text" id="password" name="login" placeholder="password">
                 <br />
-                <button>Login</button>
-                <button>Create Account</button>
-                <br />
+                <button type="submit" class="exp-button">Log In</button>
             </form>
-            <p id="forgot_password_link"><a href="#Forgot_password" >Forgot password</a></p>
+            <br />
+            <h5><a href="Index.html" style="text-decoration:none; ">Resister for an account</a></h5>
         </div>
     </div>
-
-
 </body>
 </html>

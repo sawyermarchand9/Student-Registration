@@ -75,13 +75,13 @@
     <Content Include="Content\Images\studying.jpg" />
     <Content Include="Content\Images\online_assistance.jpg" />
     <Content Include="Content\index.css" />
-    <Content Include="Content\Login.css" />
     <Content Include="Content\Images\index_image_two.jpg" />
     <Content Include="Content\Images\index_image_three.jpg" />
+    <Content Include="Content\Login_Style.css" />
     <Content Include="Content\Menu-bar.css" />
+    <Content Include="Login.html" />
     <Content Include="Index.html" />
     <Content Include="About.html" />
-    <Content Include="Login.html" />
     <Content Include="Content\Images\index_image.jpg" />
     <Content Include="Web.config" />
   </ItemGroup>

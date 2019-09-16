@@ -1,0 +1,32 @@
+﻿.exp-button {
+    color: white;
+    border: none;
+    width:100px;
+    text-decoration: none;
+    border-radius: 12px;
+    background-color: #5a71cc
+}
+body {
+    background-image:url('Images/index_image.jpg');
+}
+.login-bar {
+    margin: auto;
+    margin-top: 5%;
+    height: 400px;
+    width: 50%;
+    background-color: rgba(41, 46, 51, 0.6);
+    text-align: center;
+    color: white;
+    
+}
+#login-title {
+    margin-top:10%
+}
+
+    #login-form button {
+        margin-top:5%;
+    }
+    #login-form input {
+        margin-top: 2%;
+    }
+
