@@ -6,8 +6,11 @@
     border-radius: 12px;
     background-color: #5a71cc
 }
-body {
-    background-image:url('Images/index_image.jpg');
+#login-background {
+    position:absolute;
+    height:912px;
+    width:100%;
+    z-index:-1;
 }
 .login-bar {
     margin: auto;
@@ -19,6 +22,11 @@ body {
     color: white;
     
 }
+    .login-bar a {
+        text-decoration: none;
+        color: white;
+    }
+    
 #login-title {
     margin-top:10%
 }
