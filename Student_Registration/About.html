@@ -14,8 +14,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark menu-bar">
+    
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark menu-bar" >
         <ul class="navbar-nav">
             <li class="nav-item">
                 <a class="nav-link" href="Index.html">Merganser University</a>
@@ -27,10 +27,14 @@
                 <a class="nav-link" href="About.html">About</a>
             </li>
             <li class="nav-item">
+                <a class="nav-link " href="Register.html">Register</a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link " href="Login.html">Login</a>
             </li>
         </ul>
     </nav>
+    <a id="top"></a>
     <img src="Content/Images/index_image_two.jpg" id="about-background" />
 
     <div class="col-sm-9 about-message">
@@ -38,10 +42,10 @@
         <br />
         <div class="col-sm-10 about-message-content">
             <p>
-                Here at Merganser University we offer a great deal of online courses such as computer security, web-development, programming,
-                and much more. There is constant online expert support available to students.
-                Merganser University is 100% free because we believe that knowledge should be available to everyone.
-                Below is a list of services provided by Merganser University.
+                Merganser University is an online learning aid provided to instructors and students. 
+                It is completely open source and allows a clean interface where an instructor may provide course 
+                material to students in an organized fashion. Learning is not easy and having a clear and concise 
+                portrayal of content can make all the difference.
             </p>
         </div>
         <br />
@@ -56,7 +60,9 @@
                     <br />
                     <p>Online Assistance</p>
 
-                    <button type="button" class="exp-button">Learn more</button>
+                    <button type="button" class="exp-button">
+                        <a href="#online-assistance-anchor" style="text-decoration:none; color:white">Learn more</a>
+                    </button>
                 </div>
                 <div class="col-lg-4">
 
@@ -66,7 +72,9 @@
                     <br />
                     <p>Evaluated projects</p>
 
-                    <button type="button" class="exp-button">Learn more</button>
+                    <button type="button" class="exp-button">
+                        <a href="#evaluated-projects-anchor">Learn more</a>
+                    </button>
                 </div>
                 <div class="col-lg-4">
 
@@ -75,7 +83,9 @@
                     </div>
                     <br />
                     <p>Test prep</p>
-                    <button type="button" class="exp-button">Learn more</button>
+                    <button type="button" class="exp-button">
+                        <a href="#test-prep-anchor">Learn more</a>
+                    </button>
                 </div>
 
             </div>
@@ -85,6 +95,7 @@
 
     </div>
     <!-- Online Assistance -->
+    <a id="online-assistance-anchor"></a>
     <div class="container assistance-container">
         <div>
             <h1 style="text-align:center;">Online Assistance</h1>
@@ -94,21 +105,21 @@
             </div>
             <br />
             <p>
-                Learning is by no means an easy task, however, the frustration involved can be greatly reduced.
-                if at any time you feel that the material is getting confusing just remember, we offer 24/7
-                assistance and are more than pleased to help you. The goal is to not only provide free learning, but to
-                strive to develope a community of individuals who can help one another in computer science. This is because
-                you are the future to the progression of technology and valued.
+                How many times have you felt the fear of failing a class? Merganser University provides 
+                students and instructors with an interface that allows them to interact through our messaging app. 
+                Also! It is not very often where you find yourself alone in any class, use our Q and A forum to interact
+                with other students and see what they think.
             </p>
             <br />
             <div class="col-sm-12 center">
                 <button type="button" class="exp-button">Create Account</button>
-                <button type="button" class="exp-button">Request help</button>
+                <button type="button" class="exp-button"><a href="#top" id="button-return">Return</a></button>
             </div>
 
         </div>
     </div>
     <!-- Evaluated Projects -->
+    <a id="evaluated-projects-anchor"></a>
     <div class="container assistance-container">
         <div>
             <h1 style="text-align:center;">Evaluated Projects</h1>
@@ -118,21 +129,21 @@
             </div>
             <br />
             <p>
-                Learning is by no means an easy task, however, the frustration involved can be greatly reduced.
-                if at any time you feel that the material is getting confusing just remember, we offer 24/7
-                assistance and are more than pleased to help you. The goal is to not only provide free learning, but to
-                strive to develope a community of individuals who can help one another in computer science. This is because
-                you are the future to the progression of technology and valued.
+                Immediate feedback is crucial to the development of your skills as an up and coming code ninja. 
+                Your projects are evaluated and graded based off how your instructor thinks you did. Constructive 
+                criticism is important as well as learning of our shortcomings. Your instructor can post graded 
+                assignments with feed back easily for your growth.
             </p>
             <br />
             <div class="col-sm-12 center">
                 <button type="button" class="exp-button">Create Account</button>
-                <button type="button" class="exp-button">Request help</button>
+                <button type="button" class="exp-button"><a href="#top" id="button-return">Return</a></button>
             </div>
 
         </div>
     </div>
     <!-- Test Prep -->
+    <a id="test-prep-anchor"></a>
     <div class="container assistance-container">
         <div>
             <h1 style="text-align:center;">Test Preporation</h1>
@@ -142,22 +153,21 @@
             </div>
             <br />
             <p>
-                Learning is by no means an easy task, however, the frustration involved can be greatly reduced.
-                if at any time you feel that the material is getting confusing just remember, we offer 24/7
-                assistance and are more than pleased to help you. The goal is to not only provide free learning, but to
-                strive to develope a community of individuals who can help one another in computer science. This is because
-                you are the future to the progression of technology and valued.
+                Do you not feel ready for your next test? Fear Not! Merganser University is here to save you 
+                from your test anxiety. Your instructor can highlight key points to lectures and provide footnotes 
+                to those lectures. An Interactive study guide is also provided where the student will be able to take
+                practice tests to see where there is room for improvement.
             </p>
             <br />
             <div class="col-sm-12 center">
                 <button type="button" class="exp-button">Create Account</button>
-                <button type="button" class="exp-button">Request help</button>
+                <button type="button" class="exp-button"><a href="#top" id="button-return">Return</a></button>
             </div>
 
         </div>
     </div>
     <div id="return-button">
-        <button class="exp-button" >Return to top</button>
+        <button class="exp-button"><a href="#top">Return to top</a></button>
     </div>
     
 </body>

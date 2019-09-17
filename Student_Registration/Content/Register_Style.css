@@ -1,0 +1,32 @@
+﻿#register-background {
+    position:absolute;
+    top:0px;
+    height:968px;
+    width:100%;
+    z-index:-1;
+}
+
+.registration-form {
+    margin: auto;
+    margin-top: 10%;
+    height: 650px;
+    width: 100%;
+    background-color: rgba(41, 46, 51, 0.8);
+    color: white;
+    text-align: center;
+}
+
+.reg-form {
+    position:relative;
+    top:10%;
+}
+
+.register-button {
+    color: white;
+    border: none;
+    width: 100px;
+    text-decoration: none;
+    border-radius: 12px;
+    background-color: #5a71cc
+}
+
