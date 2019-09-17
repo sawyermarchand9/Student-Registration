@@ -78,6 +78,8 @@
     <Content Include="Content\Login_Style.css" />
     <Content Include="Content\Menu-bar.css" />
     <Content Include="Content\Register_Style.css" />
+    <Content Include="Content\thanks_for_registering_modal.css" />
+    <Content Include="JavaScript.js" />
     <Content Include="Login.html" />
     <Content Include="Index.html" />
     <Content Include="About.html" />

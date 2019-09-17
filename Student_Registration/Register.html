@@ -6,6 +6,7 @@
     <!-- CSS and Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
     <link href="Content/Register_Style.css" rel="stylesheet" />
+    <link href="Content/thanks_for_registering_modal.css" rel="stylesheet" />
     <link rel="stylesheet" href="Content/Menu-bar.css" />
     <!-- scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -32,7 +33,7 @@
             </li>
         </ul>
     </nav>
-    <img src="Content/Images/register-background.jpg" id="register-background"/>
+    <img src="Content/Images/register-background.jpg" id="register-background" />
     <div class="container reg-container">
         <div class="col-lg-12 registration-form">
             <div class="reg-form">
@@ -44,11 +45,11 @@
                     <div class="col-md-6">
 
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="First Name *" value="" />
+                            <input type="text" class="form-control" placeholder="First Name *" value="" id="first-name"/>
                         </div>
 
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Last Name *" value="" />
+                            <input type="text" class="form-control" placeholder="Last Name *" value="" id="last-name"/>
                         </div>
 
                         <div class="form-group">
@@ -59,7 +60,7 @@
                             <input type="password" class="form-control" placeholder="Confirm Password *" value="" />
                         </div>
 
-                        
+
                     </div>
                     <div class="col-md-6">
                         <div class="form-group">
@@ -79,7 +80,7 @@
                         <div class="form-group">
                             <input type="text" class="form-control" placeholder="Enter Your Answer *" value="" />
                         </div>
-                        
+
                     </div>
                     <div class="col-lg-12">
                         <br />
@@ -98,12 +99,22 @@
                             </div>
                         </div>
 
-                        <input type="submit" class="register-button" value="Register" />
+                        <input type="submit" class="register-button" value="Register" id="myBtn"/>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <p id="message-complete"></p>
+            <span class="close" style="position:absolute;right:4%;">&times;</span>
+        </div>
+
+    </div>
+    <script src="JavaScript.js"></script>
 </body>
 </html>

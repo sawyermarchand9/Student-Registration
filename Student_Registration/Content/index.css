@@ -1,4 +1,7 @@
-﻿
+﻿button a {
+    color:white;
+    text-decoration:none;
+}
 #exp-button {
     width: 15%;
     color: white;
