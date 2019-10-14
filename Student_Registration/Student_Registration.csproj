@@ -64,6 +64,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CourseList.xml" />
+    <Content Include="InstructorList.xml" />
     <Content Include="Content\About_Style.css" />
     <Content Include="Content\Images\file.png" />
     <Content Include="Content\Images\face.png" />
@@ -85,10 +87,12 @@
     <Content Include="About.html" />
     <Content Include="Content\Images\index_image.jpg" />
     <Content Include="Register.html" />
+    <Content Include="StudentList.xml" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="App_Data\XMLAccess.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -99,9 +103,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
